@@ -1,0 +1,96 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(245, 240, 234);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #ddd6cd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+nav {
+	display: flex;
+	gap: 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #d2691e;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: white;
+}
+
+.logo {
+	font-size: 2rem;
+	color: #d2691e;
+}
+
+.hero {
+	background-image: url("images/main.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 2px 2px 5px #000;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 3rem;
+}
+
+.about {
+	display: flex;
+	padding: 40px;
+	gap: 20px;
+}
+
+.about img {
+	width: 45%;
+	border-radius: 10px;
+}
+
+.about-text {
+	width: 50%;
+}
+
+.gallery {
+	padding: 40px;
+	text-align: center;
+}
+
+.gallery h2 {
+	margin-bottom: 20px;
+}
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+
+.gallery-grid img {
+	width: 75%;
+	height: 85%;
+	border-radius: 10px;
+}
+
+footer {
+	background-color: #ddd6cd;
+	color: #d2691e;
+	text-align: center;
+	padding: 10px;
+}
